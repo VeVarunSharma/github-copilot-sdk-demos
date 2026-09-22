@@ -10,7 +10,7 @@
     "demo:incident": "tsx src/04-incident-triage.ts",
     "demo:gateway": "tsx src/05-cost-gateway.ts",
     "demo:hello-world": "tsx src/hello-world.ts",
-    "test": "tsx --test src/**/*.test.ts",
+    "test": "tsx --test src/*.test.ts",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [
