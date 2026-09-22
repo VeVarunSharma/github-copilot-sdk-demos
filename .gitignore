@@ -1,0 +1,7 @@
+node_modules/
+.env
+.copilot-demo/
+dist/
+*.log
+.DS_Store
+coverage/

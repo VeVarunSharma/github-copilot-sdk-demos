@@ -1,0 +1,45 @@
+{
+  "name": "ghcp-sdk-demo",
+  "version": "1.0.0",
+  "description": "Presentation and hands-on workshop demos for the GitHub Copilot SDK.",
+  "private": false,
+  "scripts": {
+    "demo:github": "tsx src/01-github-hosted.ts",
+    "demo:stream": "tsx src/02-github-streaming.ts",
+    "demo:foundry": "tsx src/03-foundry-byok.ts",
+    "demo:incident": "tsx src/04-incident-triage.ts",
+    "demo:gateway": "tsx src/05-cost-gateway.ts",
+    "demo:hello-world": "tsx src/hello-world.ts",
+    "test": "tsx --test src/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "github-copilot",
+    "copilot-sdk",
+    "microsoft-foundry",
+    "typescript",
+    "ai-agents",
+    "workshop",
+    "generative-ai"
+  ],
+  "author": "Sharmave",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeVarunSharma/github-copilot-sdk-demos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VeVarunSharma/github-copilot-sdk-demos/issues"
+  },
+  "homepage": "https://github.com/VeVarunSharma/github-copilot-sdk-demos#readme",
+  "type": "module",
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.14",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
